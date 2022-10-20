@@ -1,0 +1,143 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #13367a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .hdr{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  .showgif{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  .show{
+  margin-left: 60px;
+
+  }
+  .gif {
+    margin-left: 10px;
+    border-radius: 4px;
+
+  }
+  .btnGif {
+    background-color:slateblue ;
+    border:none;
+    border-color: white;
+    border: 0px;
+    outline: none;
+    color: white;
+    width: 60px;
+    height: 30px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 450;
+  }
+  .btnGif:hover {
+    cursor: pointer;
+    background-color: rgb(133, 118, 230);
+    color:white;
+    outline: none;
+  }
+  
+  .input {
+    margin-left: 15px;
+    margin-right: 0px;
+    background-color: rgb(236, 233, 255);
+    border-radius: 4px;
+    border-style: none;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-weight: 450;
+    align-items: center;
+  
+  }
+  .srch{
+    margin-left: 5px;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  .loading {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 100%;
+    border-right: 5px solid rgb(85, 73, 163);
+    border-left: 5px solid #f1f1f1;
+    border-bottom: 5px solid #f1f1f1;
+    border-top: 5px solid #f1f1f1;
+    animation-name: rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); border-right: 5px solid #f00; }
+  }
+  
+  
+  .clear {
+    position: absolute;
+    right: 10px;
+    border: 0px;
+    outline: none;
+    border-color: transparent;
+    background-color: transparent;
+    color:rgb(175, 175, 175)
+  
+  }
+  .clear:hover {
+    cursor: pointer;
+    outline: none;
+  }
+
+  .in-line-form {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+  }

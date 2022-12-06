@@ -10,12 +10,14 @@ import GiphyHooks from './components/giphyHooks';
 import Lifecycle from './components/lifecycle';
 import Main from './GifLifecycle/Main';
 import Timer from './components/timer';
+import Slider from './components/Slider/slider';
+import Cards from './components/cards'
 
 class App extends React.Component {
 
   render() {
     return <div>
-      <Timer />
+      <Cards />
     </div>
   }
 }

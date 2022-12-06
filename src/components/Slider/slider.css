@@ -1,0 +1,57 @@
+.slider {
+    height: 50%;
+    margin-left: 60px;
+    white-space: nowrap;
+    place-items: center;
+    display: flex;
+    padding: 15px;
+}
+
+.sliderChild {
+    display: inline-block;
+    align-self: center;
+    place-items: center;
+    display: flex;
+    margin-left: 17%;
+}
+
+.images {
+    width: 1000px;
+    height: 700px;
+}
+
+.btnLeftRight {
+    width: 70px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+}
+
+.sliderAuto {
+    place-items: center;
+    display: flex;
+    margin-left: 45%;
+}
+
+.button {
+    margin: 5px;
+    border: none;
+    width: 90px;
+    height: 40px;
+    align-self: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1,
+p {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 9px;
+}

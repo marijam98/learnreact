@@ -1,19 +1,70 @@
 {
-  "posts": [
+  "person": [
     {
+      "name": "Luca",
+      "sureName": "Anders",
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "state": "Active"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "An",
+      "sureName": "Watson",
+      "state": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Sarah",
+      "sureName": "Smitih",
+      "state": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Johanna",
+      "sureName": "Jones",
+      "state": "Active"
+    },
+    {
+      "id": 5,
+      "name": "Sam",
+      "sureName": "Parker",
+      "state": "Active"
+    },
+    {
+      "id": 6,
+      "name": "James",
+      "sureName": "Williams",
+      "state": "Inactive"
+    },
+    {
+      "id": 7,
+      "name": "Robert",
+      "sureName": "Brown",
+      "state": "Inactive"
+    },
+    {
+      "id": 8,
+      "name": "Michael",
+      "sureName": "Jones",
+      "state": "Inactive"
+    },
+    {
+      "id": 9,
+      "name": "Susan",
+      "sureName": "Miller",
+      "state": "Inactive"
+    },
+    {
+      "id": 10,
+      "name": "Mary",
+      "sureName": "Davis",
+      "state": "Active"
+    },
+    {
+      "id": 11,
+      "name": "John",
+      "sureName": "Anders",
+      "state": "Active"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
